@@ -1,0 +1,18 @@
+generator client {
+  provider = "prisma-client-js"
+}
+
+datasource db {
+  provider = "postgresql"
+  url      = env("DATABASE_URL")
+}
+
+model Aduan {
+  id                 Int      @id @default(autoincrement())
+  pengadu            String
+  lokasi             String
+  kategori_kerosakan String
+  tahap_keutamaan    String
+  status             String   @default("Baru")
+  createdAt          DateTime @default(now())
+}

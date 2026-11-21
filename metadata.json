@@ -1,0 +1,6 @@
+{
+  "name": "Facility Damage Helpdesk",
+  "description": "Sistem Aduan Kerosakan Fasiliti — Campus and building facility damage reporting and maintenance helpdesk dashboard.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
